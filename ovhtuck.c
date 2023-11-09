@@ -22,7 +22,7 @@ int bypasslakocum(int kontrol, char *durumcuuuk[ ])
                 pthread_create( &cekirdek[i], NULL, &saldir, (void *) durumcuuuk[1]);
         }
         fprintf(stdout, "İstanbul Sabiha Gökcen Havalimani İyi Uçuşlar Diler Adamimmm....\n");
-        fprintf(stdout, "Coded Rodriquez... \n");
+        fprintf(stdout, "Rodriquez... \n");
         if(kontrol > 4)
         {
                 sleep(atoi(durumcuuuk[4]));
